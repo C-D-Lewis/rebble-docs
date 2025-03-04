@@ -15,6 +15,7 @@ nav:
 # Site theme
 theme:
   name: material
+  favicon: assets/images/rebble-logo.png
 
   # Material theme features
   features:

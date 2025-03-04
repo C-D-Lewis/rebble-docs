@@ -32,11 +32,7 @@ mkdocs build
 Run the formatter:
 
 ```
-# Check if formatted
-mdformat --check README.md docs
-
-# Apply formatter to make changes
-mdformat README.md docs
+./scripts/format.sh [check|apply]
 ```
 
 ## Goals
@@ -72,3 +68,4 @@ In migrating Markdown docs from the Pebble devsite
 - Remove 'double backtick' symbol links (mdformat can do this for you) until another solution is found
 - Remove SDK/CloudPebble specific Jekyll tags, keeping only SDK instructions (for now?)
 - Check links to other headings on the page work, and that code snippet languages are correct
+- Convert HTML tables and images to Markdown ones (also removing any image label magic).

@@ -38,84 +38,33 @@ SDK, sorted by family. A sample of each is also shown.
 
 ### Bitham
 
-<table>
-  <thead>
-    <th>Available Font Keys</th>
-    <th>Preview</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>FONT_KEY_BITHAM_30_BLACK</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/bitham_30_black_preview.png"/></td>
-    </tr><tr>
-      <td><code>FONT_KEY_BITHAM_34_MEDIUM_NUMBERS</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/bitham_34_medium_numbers_preview.png"/></td>
-    </tr><tr>
-      <td><code>FONT_KEY_BITHAM_42_BOLD</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/bitham_42_bold_preview.png"/></td>
-    </tr><tr>
-      <td><code>FONT_KEY_BITHAM_42_LIGHT</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/bitham_42_light_preview.png"/></td>
-    </tr><tr>
-      <td><code>FONT_KEY_BITHAM_42_MEDIUM_NUMBERS</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/bitham_42_medium_numbers_preview.png"/></td>
-    </tr>
-  </tbody>
-</table>
+| Available Font Keys | Preview |
+|---------------------|---------|
+| `FONT_KEY_BITHAM_30_BLACK` | ![](../../../assets/images/guides/app-resources/fonts/bitham_30_black_preview.png) |
+| `FONT_KEY_BITHAM_34_MEDIUM_NUMBERS` | ![](../../../assets/images/guides/app-resources/fonts/bitham_34_medium_numbers_preview.png) |
+| `FONT_KEY_BITHAM_42_BOLD` | ![](../../../assets/images/guides/app-resources/fonts/bitham_42_bold_preview.png) |
+| `FONT_KEY_BITHAM_42_LIGHT` | ![](../../../assets/images/guides/app-resources/fonts/bitham_42_light_preview.png) |
+| `FONT_KEY_BITHAM_42_MEDIUM_NUMBERS` | ![](../../../assets/images/guides/app-resources/fonts/bitham_42_medium_numbers_preview.png) |
 
 ### Roboto/Droid Serif
 
-<table>
-  <thead>
-    <th>Available Font Keys</th>
-    <th>Preview</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>FONT_KEY_ROBOTO_CONDENSED_21</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/roboto_21_condensed_preview.png"/></td>
-    </tr><tr>
-      <td><code>FONT_KEY_ROBOTO_BOLD_SUBSET_49</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/roboto_49_bold_subset_preview.png"/></td>
-    </tr><tr>
-      <td><code>FONT_KEY_DROID_SERIF_28_BOLD</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/droid_28_bold_preview.png"/></td>
-    </tr>
-  </tbody>
-</table>
+| Available Font Keys | Preview |
+|---------------------|---------|
+| `FONT_KEY_ROBOTO_CONDENSED_21` | ![](../../../assets/images/guides/app-resources/fonts/roboto_21_condensed_preview.png) |
+| `FONT_KEY_ROBOTO_BOLD_SUBSET_49` | ![](../../../assets/images/guides/app-resources/fonts/roboto_49_bold_subset_preview.png) |
+| `FONT_KEY_DROID_SERIF_28_BOLD` | ![](../../../assets/images/guides/app-resources/fonts/droid_28_bold_preview.png) |
 
 ### LECO
 
-<table>
-  <thead>
-    <th>Available Font Keys</th>
-    <th>Preview</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>FONT_KEY_LECO_20_BOLD_NUMBERS</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/leco_20_bold_preview.png"/></td>
-    </tr><tr>
-      <td><code>FONT_KEY_LECO_26_BOLD_NUMBERS_AM_PM</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/leco_26_bold_preview.png"/></td>
-    </tr><tr>
-      <td><code>FONT_KEY_LECO_28_LIGHT_NUMBERS</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/leco_28_light_preview.png"/></td>
-    </tr><tr>
-      <td><code>FONT_KEY_LECO_32_BOLD_NUMBERS</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/leco_32_bold_preview.png"/></td>
-    </tr><tr>
-      <td><code>FONT_KEY_LECO_36_BOLD_NUMBERS</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/leco_36_bold_preview.png"/></td>
-    </tr><tr>
-      <td><code>FONT_KEY_LECO_38_BOLD_NUMBERS</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/leco_38_bold_preview.png"/></td>
-    </tr><tr>
-      <td><code>FONT_KEY_LECO_42_NUMBERS</code></td>
-      <td><img src="/assets/images/guides/app-resources/fonts/leco_42_preview.png"/></td>
-    </tr>
-  </tbody>
-</table>
+| Available Font Keys | Preview |
+|---------------------|---------|
+| `FONT_KEY_LECO_20_BOLD_NUMBERS` | ![](../../../assets/images/guides/app-resources/fonts/leco_20_bold_preview.png) |
+| `FONT_KEY_LECO_26_BOLD_NUMBERS_AM_PM` | ![](../../../assets/images/guides/app-resources/fonts/leco_26_bold_preview.png) |
+| `FONT_KEY_LECO_28_LIGHT_NUMBERS` | ![](../../../assets/images/guides/app-resources/fonts/leco_28_light_preview.png) |
+| `FONT_KEY_LECO_32_BOLD_NUMBERS` | ![](../../../assets/images/guides/app-resources/fonts/leco_32_bold_preview.png) |
+| `FONT_KEY_LECO_36_BOLD_NUMBERS` | ![](../../../assets/images/guides/app-resources/fonts/leco_36_bold_preview.png) |
+| `FONT_KEY_LECO_38_BOLD_NUMBERS` | ![](../../../assets/images/guides/app-resources/fonts/leco_38_bold_preview.png) |
+| `FONT_KEY_LECO_42_NUMBERS` | ![](../../../assets/images/guides/app-resources/fonts/leco_42_preview.png) |
 
 ## Obtaining System Font Files
 
@@ -149,15 +98,15 @@ text_layer_set_text(s_layer, "Smiley face: \U0001F603");
 An app containing a `TextLayer` displaying the above string will look similar
 to this:
 
-![emoji-screenshot >{pebble-screenshot,pebble-screenshot--steel-black}](/images/guides/pebble-apps/resources/emoji-screenshot.png)
+![](../../../assets/images/guides/app-resources/fonts/emoji-screenshot.png)
 
 The supported characters are displayed below with their corresponding unicode
 values.
 
-<img style="align: center;" src="/assets/images/guides/pebble-apps/resources/emoji1.png"/>
+![](../../../assets/images/guides/app-resources/fonts/emoji1.png)
 
 ### Deprecated Emoji Symbols
 
 The following emoji characters are no longer available on the Aplite platform.
 
-<img style="align: center;" src="/assets/images/guides/pebble-apps/resources/emoji-unsupported.png"/>
+![](../../../assets/images/guides/app-resources/fonts/emoji-unsupported.png)

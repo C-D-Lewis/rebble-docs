@@ -16,18 +16,20 @@ Install dependencies:
 pip install mkdocs mkdocs-material mdformat
 ```
 
+Install Git hooks:
+
+```
+cp ./scripts/hooks/pre-commit .git/hooks/
+```
+
 Serve locally or build the site:
 
 ```
-mkdocs serve
+mkdocs [serve|build]
 ```
 
-MkDocs will show logs alerting of missing links / pages / config values etc, so
-pay attention to it.
-
-```
-mkdocs build
-```
+> MkDocs will show logs alerting of missing links / pages / config values etc,
+> so pay attention to it!
 
 Run the formatter:
 

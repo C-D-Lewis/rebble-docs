@@ -1,0 +1,6 @@
+# Build
+site
+
+# Other
+node_modules
+*.DS_Store

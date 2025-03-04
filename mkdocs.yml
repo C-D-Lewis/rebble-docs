@@ -1,0 +1,72 @@
+site_name: Rebble Documentation
+repo_url: https://github.com/C-D-Lewis/rebble-docs
+
+# Site navigation structure
+nav:
+  - index.md
+  - Pebble Dev:
+    - Guides:
+      - pebble/guides/getting-started.md
+  - Rebble:
+    - rebble/index.md
+
+# Site theme
+theme:
+  name: material
+
+  # Material theme features
+  features:
+    - navigation.tracking
+    - navigation.path
+    - navigation.expand
+    - navigation.tabs
+  logo: assets/images/rebble-logo.png
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference\
+
+# MkDocs markdown extensions
+markdown_extensions:
+  - toc:
+      permalink: "#"
+
+# MkDocs plugins
+plugins:
+  - search
+
+  # Work offline (except some features)
+  - offline
+
+# Extra MkDocs configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pebble-dev
+    - icon: fontawesome/brands/discord
+      link: https://rebble.io/discord
+
+# Extra custom CSS
+extra_css:
+  - stylesheets/extra.css

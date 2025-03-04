@@ -41,16 +41,17 @@ mdformat .
 
 ## Goals
 
-- [ ] Contributing guide
-- [ ] Import Pebble C / JS documentation
-- [ ] Import Pebble guides and examples
-- [x] Appropriate license (same as original devsite)
-- [x] Decent code syntax highlighting
-- [x] Decent search
-- [x] Easy to contribute
 - [x] Lightweight requirements
+- [x] Easy to contribute
+- [x] Decent search
+- [x] Decent code syntax highlighting
+- [x] Appropriate license (same as original devsite)
+- [ ] Contributing guide
 - [x] Markdown formatter
 - [x] Usable completely offline
+- [ ] Import Pebble C / JS documentation
+- [ ] Import Pebble guides and examples
+- [ ] Build and test formatting with GitHub actions
 
 ## Resources
 
@@ -67,6 +68,7 @@ In migrating Markdown docs from the Pebble devsite
 
 - Remove all YAML frontmatter in `---` section
 - Move Google copyright notice to HTML comment (`<!-- ... -->`)
+- Add the title of the page as a level 1 header (`#`)
 - Remove 'double backtick' symbol links (mdformat can do this for you) until another solution is found
 - Remove SDK/CloudPebble specific Jekyll tags, keeping only SDK instructions (for now?)
 - Check links to other headings on the page work, and that code snippet languages are correct

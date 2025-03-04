@@ -65,8 +65,8 @@ Here are some resources to learn about how to build and modify this site.
 In migrating Markdown docs from the Pebble devsite
 [repo](https://github.com/google/pebble), the following changes should be made:
 
-* Remove all YAML frontmatter in `---` section
-* Move Google copyright notice to HTML comment (`<!-- ... -->`)
-* Remove 'double backtick' symbol links (until another solution is found)
-* Remove SDK/CloudPebble specific Jekyll tags, keeping only SDK instructions (for now?)
-* Check links to other headings on the page work, and that code snippet languages are correct
+- Remove all YAML frontmatter in `---` section
+- Move Google copyright notice to HTML comment (`<!-- ... -->`)
+- Remove 'double backtick' symbol links (mdformat can do this for you) until another solution is found
+- Remove SDK/CloudPebble specific Jekyll tags, keeping only SDK instructions (for now?)
+- Check links to other headings on the page work, and that code snippet languages are correct

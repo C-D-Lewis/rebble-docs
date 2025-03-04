@@ -25,7 +25,6 @@ SDK, sorted by family. A sample of each is also shown.
 
 ### Raster Gothic
 
-
 | Available Font Keys | Preview |
 |---------------------|---------|
 | `FONT_KEY_GOTHIC_14` | ![](../../../assets/images/guides/app-resources/fonts/gothic_14_preview.png) |
@@ -36,7 +35,6 @@ SDK, sorted by family. A sample of each is also shown.
 | `FONT_KEY_GOTHIC_24_BOLD` | ![](../../../assets/images/guides/app-resources/fonts/gothic_24_bold_preview.png) |
 | `FONT_KEY_GOTHIC_28` | ![](../../../assets/images/guides/app-resources/fonts/gothic_28_preview.png) |
 | `FONT_KEY_GOTHIC_28_BOLD` | ![](../../../assets/images/guides/app-resources/fonts/gothic_28_bold_preview.png) |
-
 
 ### Bitham
 
@@ -65,7 +63,6 @@ SDK, sorted by family. A sample of each is also shown.
   </tbody>
 </table>
 
-
 ### Roboto/Droid Serif
 
 <table>
@@ -86,7 +83,6 @@ SDK, sorted by family. A sample of each is also shown.
     </tr>
   </tbody>
 </table>
-
 
 ### LECO
 
@@ -121,23 +117,21 @@ SDK, sorted by family. A sample of each is also shown.
   </tbody>
 </table>
 
-
 ## Obtaining System Font Files
 
 The following system fonts are available to developers in the SDK can be found
 online for use in design mockups:
 
-* [Raster Gothic](http://www.marksimonson.com/) - By Mark Simonson
+- [Raster Gothic](http://www.marksimonson.com/) - By Mark Simonson
 
-* [Gotham (Bitham)](http://www.typography.com/fonts/gotham/overview/) -
+- [Gotham (Bitham)](http://www.typography.com/fonts/gotham/overview/) -
   Available from Typography.com
 
-* [Droid Serif](https://www.google.com/fonts/specimen/Droid+Serif) - Available
+- [Droid Serif](https://www.google.com/fonts/specimen/Droid+Serif) - Available
   from Google Fonts
 
-* [LECO 1976](https://www.myfonts.com/fonts/carnoky/leco-1976/) - Available from
+- [LECO 1976](https://www.myfonts.com/fonts/carnoky/leco-1976/) - Available from
   Myfonts.com
-
 
 ## Using Emoji Fonts
 
@@ -146,13 +140,13 @@ characters. These are the Gothic 24, Gothic 24 Bold, Gothic 18, and Gothic 18
 Bold fonts, but do not include the full range.
 
 To print an emoji on Pebble, specify the code in a character string like the one
-shown below when using a ``TextLayer``, or ``graphics_draw_text()``:
+shown below when using a `TextLayer`, or `graphics_draw_text()`:
 
 ```c
 text_layer_set_text(s_layer, "Smiley face: \U0001F603");
 ```
 
-An app containing a ``TextLayer`` displaying the above string will look similar
+An app containing a `TextLayer` displaying the above string will look similar
 to this:
 
 ![emoji-screenshot >{pebble-screenshot,pebble-screenshot--steel-black}](/images/guides/pebble-apps/resources/emoji-screenshot.png)

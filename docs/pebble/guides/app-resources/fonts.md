@@ -28,14 +28,12 @@ fields (see [*Choosing Font Characters*](#choosing-font-characters)), the latter
 of which is a standard Python regex describing the character set of the
 resulting font.
 
-
 ## System Fonts
 
 All of the built-in system fonts are available to use with
-``fonts_get_system_font()``. See [System Fonts](./system-fonts.md) for
+`fonts_get_system_font()`. See [System Fonts](./system-fonts.md) for
 a complete list with sample images. Examples of using a built-in system font in
 code are [shown below](#using-a-system-font).
-
 
 ### Limitations
 
@@ -43,12 +41,11 @@ There are limitations to the Bitham, Roboto, Droid and LECO fonts, owing to the
 memory space available on Pebble, which only contain a subset of the default
 character set.
 
-* Roboto 49 Bold Subset - contains digits and a colon.
-* Bitham 34/42 Medium Numbers - contain digits and a colon.
-* Bitham 18/34 Light Subset - only contains a few characters and is not suitable
+- Roboto 49 Bold Subset - contains digits and a colon.
+- Bitham 34/42 Medium Numbers - contain digits and a colon.
+- Bitham 18/34 Light Subset - only contains a few characters and is not suitable
   for displaying general text.
-* LECO Number sets - suitable for number-only usage.
-
+- LECO Number sets - suitable for number-only usage.
 
 ## Using a System Font
 
@@ -67,7 +64,6 @@ text_layer_set_font(s_text_layer, fonts_get_system_font(FONT_KEY_GOTHIC_24));
 graphics_draw_text(ctx, text, fonts_get_system_font(FONT_KEY_GOTHIC_24), bounds,
                      GTextOverflowModeWordWrap, GTextAlignmentCenter, NULL);
 ```
-
 
 ## Adding a Custom Font
 
@@ -111,8 +107,8 @@ s_font = fonts_load_custom_font(
                           resource_get_handle(RESOURCE_ID_EXAMPLE_FONT_20));
 ```
 
-The font can now be used in two modes - with a ``TextLayer``, or when drawing
-text manually in a ``LayerUpdateProc``:
+The font can now be used in two modes - with a `TextLayer`, or when drawing
+text manually in a `LayerUpdateProc`:
 
 ```c
 // Use a custom font in a TextLayer
@@ -125,7 +121,6 @@ graphics_draw_text(ctx, text, s_font, bounds, GTextOverflowModeWordWrap,
                                                   GTextAlignmentCenter, NULL);
 ```
 
-
 ## Font Compatibility
 
 The font rendering process was improved in SDK 2.8. However, in some cases this
@@ -133,7 +128,6 @@ may cause the appearance of custom fonts to change slightly. To revert to the
 old rendering process, add `"compatibility": "2.7"` to your font's object in the
 `media` array (shown above) in `package.json` or set the 'Compatibility'
 property in the font's resource view in CloudPebble to '2.7 and earlier'.
-
 
 ## Choosing Font Characters
 

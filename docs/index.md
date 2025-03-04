@@ -7,4 +7,6 @@ Will include sections for both Pebble Dev and Rebble documentation and help.
 
 ![Hackathon logo](assets/images/hackathon.png)
 
-See the GitHub repository README.md for more information.
+See the GitHub repository
+[README.md](https://github.com/C-D-Lewis/rebble-docs?tab=readme-ov-file) for
+more information.

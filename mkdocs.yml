@@ -6,8 +6,13 @@ nav:
   - index.md
   - Pebble Dev:
     - Guides:
+      - pebble/guides/index.md
       - App Resources:
+        - pebble/guides/app-resources/index.md
+        - pebble/guides/app-resources/app-assets.md
+        - pebble/guides/app-resources/animated-images.md
         - pebble/guides/app-resources/fonts.md
+        - pebble/guides/app-resources/images.md
         - pebble/guides/app-resources/system-fonts.md
   - Rebble:
     - rebble/index.md
@@ -21,7 +26,6 @@ theme:
   features:
     - navigation.tracking
     - navigation.path
-    - navigation.expand
     - navigation.tabs
     - content.code.copy
   logo: assets/images/rebble-logo.png

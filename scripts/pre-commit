@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "pre-commit: Checking mdformat..."
+if ! ./scripts/format-md.sh check;
+then
+  echo "pre-commit: Aborting commit due to mdformat errors"
+  exit 1
+else
+  echo "pre-commit: No mdformat errors"
+  exit 0
+fi

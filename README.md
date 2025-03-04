@@ -33,10 +33,10 @@ Run the formatter:
 
 ```
 # Check if formatted
-mdformat --check .
+mdformat --check README.md docs
 
 # Apply formatter to make changes
-mdformat .
+mdformat README.md docs
 ```
 
 ## Goals
@@ -46,12 +46,12 @@ mdformat .
 - [x] Decent search
 - [x] Decent code syntax highlighting
 - [x] Appropriate license (same as original devsite)
-- [ ] Contributing guide
 - [x] Markdown formatter
 - [x] Usable completely offline
 - [ ] Import Pebble C / JS documentation
 - [ ] Import Pebble guides and examples
 - [ ] Build and test formatting with GitHub actions
+- [ ] Contributing guide
 
 ## Resources
 

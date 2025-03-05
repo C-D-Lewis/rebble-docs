@@ -6,10 +6,10 @@ ARG=$1
 
 if [ $ARG == "check" ]; then
   echo "Checking format..."
-  mdformat --check README.md docs
+  mdformat --check README.md source
 elif [ $ARG == "apply" ]; then
   echo "Formatting..."
-  mdformat README.md docs
+  mdformat README.md source
 else
   echo "Invalid argument"
   exit 1

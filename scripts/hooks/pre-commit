@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "pre-commit: Checking mdformat..."
-if ! mdformat --check README.md docs
+if ! mdformat --check README.md source;
 then
   echo "pre-commit: Aborting commit due to mdformat errors"
   exit 1

@@ -1,5 +1,7 @@
 site_name: Rebble Documentation
 repo_url: https://github.com/C-D-Lewis/rebble-docs
+docs_dir: source
+site_dir: site
 
 # Site navigation structure
 nav:

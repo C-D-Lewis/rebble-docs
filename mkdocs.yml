@@ -16,6 +16,7 @@ nav:
         - Converting SVG to PDC: pebble/guides/app-resources/converting-svg-to-pdc.md
         - pebble/guides/app-resources/fonts.md
         - pebble/guides/app-resources/images.md
+        - Pebble Draw Command File Format: pebble/guides/app-resources/pdc-format.md
         - System Fonts: pebble/guides/app-resources/system-fonts.md
   - Rebble:
     - rebble/index.md

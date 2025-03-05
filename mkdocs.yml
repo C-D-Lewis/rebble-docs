@@ -18,6 +18,7 @@ nav:
         - Images: pebble/guides/app-resources/images.md
         - Pebble Draw Command File Format: pebble/guides/app-resources/pdc-format.md
         - Platform Specific Resources: pebble/guides/app-resources/platform-specific.md
+        - Raw Data Files: pebble/guides/app-resources/raw-data-files.md
         - System Fonts: pebble/guides/app-resources/system-fonts.md
   - Rebble:
     - rebble/index.md

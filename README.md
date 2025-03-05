@@ -3,6 +3,10 @@
 Experimental new static site builder for Pebble documentation using MkDocs with
 the Material theme and custom styling.
 
+> The `to-be-imported` directory contains guides and images that have yet to
+> be imported and fixed up as described in
+> [Migrating Pebble devsite](#migrating-pebble-devsite).
+
 - [Setup](#setup)
 - [Goals](#goals)
 - [Resources](#resources)
@@ -16,10 +20,10 @@ Install dependencies:
 pip install mkdocs mkdocs-material mdformat
 ```
 
-Install Git hooks:
+Setup the project, including installing Git hooks for formatting:
 
 ```
-cp ./scripts/hooks/pre-commit .git/hooks/
+./scripts/setup.sh
 ```
 
 Serve locally or build the site:

@@ -51,9 +51,10 @@ Run the formatter:
 - [x] Appropriate license (same as original devsite)
 - [x] Markdown formatter
 - [x] Usable completely offline
-- [ ] Import Pebble guides and example apps page
-- [ ] Import Pebble C / JS documentation
+- [ ] Import Pebble guides
+- [ ] Import example apps page
 - [ ] Import Tutorials section
+- [ ] Import Pebble C / JS documentation
 - [ ] Build and test formatting with GitHub actions
 - [ ] Contributing guide
 
@@ -79,3 +80,4 @@ In migrating Markdown docs from the Pebble devsite
 - Remove other `{% %}` magic stuff.
 - Check links to other headings on the page work, and that code snippet languages are correct.
 - Convert HTML tables and images to Markdown ones (also removing any image label magic).
+- Image sizing use the `attr_list` syntax - see existing examples

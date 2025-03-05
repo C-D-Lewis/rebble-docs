@@ -11,11 +11,12 @@ nav:
       - pebble/guides/index.md
       - App Resources:
         - pebble/guides/app-resources/index.md
-        - pebble/guides/app-resources/app-assets.md
-        - pebble/guides/app-resources/animated-images.md
+        - App Assets: pebble/guides/app-resources/app-assets.md
+        - Animated Images: pebble/guides/app-resources/animated-images.md
+        - Converting SVG to PDC: pebble/guides/app-resources/converting-svg-to-pdc.md
         - pebble/guides/app-resources/fonts.md
         - pebble/guides/app-resources/images.md
-        - pebble/guides/app-resources/system-fonts.md
+        - System Fonts: pebble/guides/app-resources/system-fonts.md
   - Rebble:
     - rebble/index.md
 
@@ -68,6 +69,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - attr_list
 
 # MkDocs plugins
 plugins:

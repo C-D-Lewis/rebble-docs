@@ -14,11 +14,8 @@ in memory those that are immediately required.
 ## Contents
 
 - [Animated Images](./animated-images.md) - How to add animated image resources to a project in the APNG format, and display them in your app.
-
 - [App Assets](./app-assets.md) - A collection of assets for use as resources in Pebble apps.
-
+- [Converting SVG to PDC](./converting-svg-to-pdc.md) - How to create compatible SVG files using Inkscape and Illustrator.
 - [Fonts](./fonts.md) - How to use built-in system fonts, or add your own font resources to a project.
-
 - [Images](./images.md) - How to add image resources to a project and display them in your app.
-
 - [System Fonts](./system-fonts.md) - A complete list of all the system fonts available for use in Pebble projects.

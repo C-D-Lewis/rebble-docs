@@ -1,5 +1,7 @@
 # rebble-docs
 
+![](source/assets/screenshot.png)
+
 Experimental new static site builder for Pebble documentation using MkDocs with
 the Material theme and custom styling.
 

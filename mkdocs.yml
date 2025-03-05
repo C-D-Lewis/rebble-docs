@@ -15,7 +15,9 @@ nav:
         - Part 3 - Adding Web Content: pebble/tutorials/watchface-tutorial/part3.md
         - Part 4 - Adding a Battery Bar: pebble/tutorials/watchface-tutorial/part4.md
         - Part 5 - Vibrate on Disconnect: pebble/tutorials/watchface-tutorial/part5.md
-      # - Build a Watchface in JS
+      - Build a Watchface in JS:
+        - Part 1 - Displaying the Time: pebble/tutorials/js-watchface-tutorial/part1.md
+        - Part 2 - Adding Web Content: pebble/tutorials/js-watchface-tutorial/part2.md
       - Advanced Tutorials:
         - pebble/tutorials/advanced/vector-animations.md
     - Guides:

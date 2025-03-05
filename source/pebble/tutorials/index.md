@@ -13,7 +13,7 @@ started.
 Learn how to create your first watchface. This tutorial will cover basic Pebble
 concepts, and is the recommended starting point for new developers.
 
-[BUILD WITH JS](#){ .md-button .md-button--primary } [BUILD WITH C](#){ .md-button .md-button--primary }
+[BUILD WITH JS](./js-watchface-tutorial/part1.md){ .md-button .md-button--primary } [BUILD WITH C](./watchface-tutorial/part1.md){ .md-button .md-button--primary }
 
 ## Build a One Click Action
 
@@ -33,7 +33,7 @@ A community driven, open source textbook that teaches the fundamentals of C thro
 
 Learn how to publish your watchface or watchapp on Pebble's appstore.
 
-[PUBLISH AN APP](#){ .md-button .md-button--primary }
+[PUBLISH AN APP](http://dev-portal.rebble.io/){ .md-button .md-button--primary }
 
 ## Go Beyond
 

@@ -5,6 +5,11 @@
 Experimental new static site builder for Pebble documentation using MkDocs with
 the Material theme and custom styling.
 
+Check the [mkdocs.yml](./mkdocs.yml) file for the site MkDocs configuration.
+
+> For demo purposes, only the two main tutorials and the App Resources guides
+> sections have been adapted to this site. Hopefully more will come!
+>
 > The `to-be-imported` directory contains guides and images that have yet to
 > be imported and fixed up as described in
 > [Migrating Pebble devsite](#migrating-pebble-devsite).
@@ -53,9 +58,9 @@ Run the formatter:
 - [x] Appropriate license (same as original devsite)
 - [x] Markdown formatter
 - [x] Usable completely offline
+- [x] Import Tutorials section
 - [ ] Import Pebble guides
 - [ ] Import example apps page
-- [ ] Import Tutorials section
 - [ ] Import Pebble C / JS documentation
 - [ ] Build and test formatting with GitHub actions
 - [ ] Contributing guide

@@ -26,9 +26,8 @@ below.
 > **Important**: All fields are in the little-endian format!
 
 An example implementation with some
-[usage limitations](/tutorials/advanced/vector-animations#creating-compatible-files)
-can be seen in
-[`svg2pdc.py`](%7B%7Bsite.links.examples_org%7D%7D/cards-example/blob/master/tools/svg2pdc.py).
+[usage limitations](../../tutorials/advanced/vector-animations.md)
+can be seen in [`svg2pdc.py`](https://github.com/pebble-examples/cards-example/blob/master/tools/svg2pdc.py).
 
 ## Component Types
 

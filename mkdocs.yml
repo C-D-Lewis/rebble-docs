@@ -7,6 +7,12 @@ site_dir: site
 nav:
   - index.md
   - Pebble Dev:
+    - Tutorials:
+      - pebble/tutorials/index.md
+      # - Build a Watchface in C
+      # - Build a Watchface in JS
+      - Advanced Tutorials:
+        - pebble/tutorials/advanced/vector-animations.md
     - Guides:
       - pebble/guides/index.md
       - App Resources:

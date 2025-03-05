@@ -24,7 +24,7 @@ runtime. These can be used as a low-cost alternative to APNGs or bitmap
 sequences. Currently the only simple way to create PDC files is to use the
 [`svg2pdc.py`](https://github.com/pebble-examples/cards-example/blob/master/tools/svg2pdc.py)
 tool. However, as noted in
-[*Vector Animations*](/tutorials/advanced/vector-animations/#creating-compatible-files)
+[*Vector Animations*](../../tutorials/advanced/vector-animations.md)
 there are a some limitations to the nature of the input SVG file:
 
 > The `svg2pdc` tool currently supports SVG files that use **only** the
@@ -114,7 +114,7 @@ $ python svg2pdc.py pencil-inkscape.svg  # Use python 2.x!
 > ```
 
 To use the PDC file in a Pebble project, read
-[*Drawing a PDC Image*](/tutorials/advanced/vector-animations/#drawing-a-pdc-image).
+[*Drawing a PDC Image*](../../tutorials/advanced/vector-animations.md).
 The result should look near-identical on Pebble:
 
 ![svg-output](../../../assets/images/guides/app-resources/svg-output.png)

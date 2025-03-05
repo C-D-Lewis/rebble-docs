@@ -77,7 +77,9 @@ In migrating Markdown docs from the Pebble devsite
 - Add the title of the page as a level 1 header (`#`).
 - Run formatter.
 - Remove SDK/CloudPebble specific Jekyll tags, keeping only SDK instructions (for now?).
+- Remove `^LC^` and `^CP^` magic.
 - Remove other `{% %}` magic stuff.
+- Remove `class="platform-specific"` divs.
 - Check links to other headings on the page work, and that code snippet languages are correct.
 - Convert HTML tables and images to Markdown ones (also removing any image label magic).
 - Image sizing use the `attr_list` syntax - see existing examples

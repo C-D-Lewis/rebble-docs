@@ -9,7 +9,12 @@ nav:
   - Pebble Dev:
     - Tutorials:
       - pebble/tutorials/index.md
-      # - Build a Watchface in C
+      - Build a Watchface in C:
+        - Part 1 - Displaying the Time: pebble/tutorials/watchface-tutorial/part1.md
+        - Part 2 - Customizing Your Watchface: pebble/tutorials/watchface-tutorial/part2.md
+        - Part 3 - Adding Web Content: pebble/tutorials/watchface-tutorial/part3.md
+        - Part 4 - Adding a Battery Bar: pebble/tutorials/watchface-tutorial/part4.md
+        - Part 5 - Vibrate on Disconnect: pebble/tutorials/watchface-tutorial/part5.md
       # - Build a Watchface in JS
       - Advanced Tutorials:
         - pebble/tutorials/advanced/vector-animations.md

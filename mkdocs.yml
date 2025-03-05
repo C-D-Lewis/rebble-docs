@@ -14,9 +14,10 @@ nav:
         - App Assets: pebble/guides/app-resources/app-assets.md
         - Animated Images: pebble/guides/app-resources/animated-images.md
         - Converting SVG to PDC: pebble/guides/app-resources/converting-svg-to-pdc.md
-        - pebble/guides/app-resources/fonts.md
-        - pebble/guides/app-resources/images.md
+        - Fonts: pebble/guides/app-resources/fonts.md
+        - Images: pebble/guides/app-resources/images.md
         - Pebble Draw Command File Format: pebble/guides/app-resources/pdc-format.md
+        - Platform Specific Resources: pebble/guides/app-resources/platform-specific.md
         - System Fonts: pebble/guides/app-resources/system-fonts.md
   - Rebble:
     - rebble/index.md

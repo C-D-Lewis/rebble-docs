@@ -1,5 +1,10 @@
 # Build
 site
+.mkdoxy
+
+# Firmware repos
+pebble/
+pebble-firmware
 
 # Other
 node_modules

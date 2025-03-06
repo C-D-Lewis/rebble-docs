@@ -18,13 +18,14 @@ Check the [mkdocs.yml](./mkdocs.yml) file for the site MkDocs configuration.
 - [Goals](#goals)
 - [Resources](#resources)
 - [Migrating Pebble devsite](#migrating-pebble-devsite)
+- [Building Firmware Docs](#building-firmware-docs)
 
 ## Setup
 
 Install dependencies:
 
 ```
-pip install mkdocs mkdocs-material mdformat
+pip install mkdocs mkdocs-material mdformat mkdoxy
 ```
 
 Setup the project, including installing Git hooks for formatting:
@@ -90,3 +91,17 @@ In migrating Markdown docs from the Pebble devsite
 - Check links to other headings on the page work, and that code snippet languages are correct.
 - Convert HTML tables and images to Markdown ones (also removing any image label magic).
 - Image sizing use the `attr_list` syntax - see existing examples
+
+## Building Firmware Docs
+
+The `mkdoxy` plugin generates Markdown pages for inclusion in the `nav`.
+Currently when configured as in `mkdocs.yml` it outputs 700+ files for `applib`,
+which is a superset of what is offered in the SDK. Some pages like 'Groups'
+seem more useful than the ones that just list every single file.
+
+1. Copy `pebble-dev/pebble-firmware` to this project.
+1. Check configuration
+1. Run a build or serve.
+1. `ls -la .mkdoxy/sdk/sdk/*md` for a list of all files as nav candidates.
+
+Some refinement is needed to show only relevant pages.
